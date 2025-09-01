@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "news-reader-app-root",
+  "version": "0.0.0",
+  "scripts": {
+    "vercel-build": "cd News-reader-app && npm ci --include=dev && npm run build",
+    "build": "cd News-reader-app && npm ci --include=dev && npm run build"
+  }
+}
