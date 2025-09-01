@@ -3,7 +3,7 @@
   "name": "news-reader-app-root",
   "version": "0.0.0",
   "scripts": {
-    "vercel-build": "cd News-reader-app && npm ci --include=dev && npm run build",
-    "build": "cd News-reader-app && npm ci --include=dev && npm run build"
+    "vercel-build": "cd News-reader-app && npm ci --include=dev && npm run build && cp -r dist ../dist",
+    "build": "cd News-reader-app && npm ci --include=dev && npm run build && cp -r dist ../dist"
   }
 }
